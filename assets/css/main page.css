@@ -89,6 +89,7 @@ body {
   text-align: center;
   padding: 15% 0% 28% 0%;
   animation: fadeIn 1s ease-in;
+  flex: auto;
 }
 
 /* ABOUT SECION */
@@ -172,4 +173,21 @@ body {
   to {
     opacity: 1;
   }
+}
+
+#goTop {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  background-color: grey;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 25px;
+  outline: none;
+  animation: fadeIn 1s;
 }
