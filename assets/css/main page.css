@@ -57,12 +57,17 @@ body {
 /* END OF NAME CUSTOMIZING */
 
 /* NAVBAR */
+
+#navbar {
+  text-align: center;
+}
+
 #navbar p {
   font-size: 30px;
   color: bisque;
-  float: right;
-  margin-right: 60px;
-  margin-top: -80px;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
   animation: fadeIn 1s ease-in;
   border-bottom: 2px solid rgba(255, 255, 255, 0);
   transition: border-bottom 300ms;
@@ -70,6 +75,10 @@ body {
 
 #navbar #about {
   margin-right: 200px;
+}
+
+#navbar #contact {
+  text-align: center;
 }
 
 #navbar #about:hover {
@@ -137,7 +146,7 @@ body {
   color: rgb(240, 97, 240);
 }
 
-@media screen and (max-width: 1150px) {
+/* @media screen and (max-width: 1150px) {
   #navbar p {
     font-size: 25px;
     margin-top: -120px;
@@ -161,7 +170,7 @@ body {
   #innercontent {
     padding: 20% 0% 40% 0%;
   }
-}
+} */
 
 @media screen and (max-width: 800px) {
 }
