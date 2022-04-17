@@ -5,6 +5,7 @@ html {
   margin: 0;
   padding: 0;
 }
+
 body {
   background: #212635;
   margin: 0;
@@ -15,14 +16,12 @@ body {
 #content {
   height: auto;
   width: 100%;
-  background-image: linear-gradient(
-    to right bottom,
-    #051937,
-    #004d7a,
-    #008793,
-    #00bf72,
-    #a8eb12
-  );
+  background-image: linear-gradient(to right bottom,
+      #051937,
+      #004d7a,
+      #008793,
+      #00bf72,
+      #a8eb12);
   background-size: cover;
   background-position: center;
 
@@ -54,6 +53,7 @@ body {
   color: bisque;
   cursor: default;
 }
+
 /* END OF NAME CUSTOMIZING */
 
 /* NAVBAR */
@@ -90,6 +90,7 @@ body {
   border-bottom: 2px solid bisque;
   cursor: pointer;
 }
+
 /* END OF NAV BAR */
 
 /* THE PART WHERE IT SAYS "CSULA COMPSCI STUDENT" */
@@ -115,6 +116,7 @@ body {
   padding: 0;
   margin-top: -5.3%;
 }
+
 /* END OF ABOUT SECTION */
 
 #ContentSection {
@@ -139,6 +141,13 @@ body {
   width: 96%;
   background-color: #ffff00;
   height: 1px;
+}
+
+#ProjectSection {
+  background: #212635;
+  background-size: cover;
+  padding: 20% 10% 20% 10%;
+  text-align: center;
 }
 
 .connect {
@@ -180,6 +189,7 @@ body {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
